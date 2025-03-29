@@ -3,13 +3,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" stylesheets="@styles.css">
+<AnchorPane id="menuContainer" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" stylesheets="@styles.css">
    <children>
       <MenuBar prefWidth="600.0" id="menuBar">
          <menus>
             <Menu text="Tickets">
                <items>
-                  <MenuItem text="Crear Ticket" />
+                  <MenuItem fx:id="crearTicketMenuItem" text="Crear Ticket" onAction="#handleCrearTicket" />
                   <MenuItem text="Consultar Estado" />
                   <MenuItem text="Agregar Nota" />
                </items>

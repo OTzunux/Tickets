@@ -6,30 +6,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 28/03/2025, 11:06:51 p. m.
     Author     : Farasi
 */
+#menuContainer {
+    -fx-background-image: url("fondo.jpg"); /* Usa la imagen de fondo */
+    -fx-background-size: cover;  /* Ajusta la imagen al tamaño del contenedor */
+    -fx-background-position: center center; /* Centra la imagen */
+}
 
-/* Fondo del menú */
 #menuBar {
     -fx-background-color: #1ABC9C; /* Azul oscuro elegante */
 }
 
-/* Estilo de los menús */
 .menu {
     -fx-text-fill: white; /* Color del texto */
     -fx-font-size: 14px;
 }
 
-/* Al pasar el mouse sobre un menú */
 .menu:hover {
     -fx-background-color: #34495E; /* Color más oscuro */
 }
 
-/* Estilo de los elementos del menú */
 .menu-item {
     -fx-text-fill: black;
     -fx-font-size: 13px;
 }
 
-/* Al pasar el mouse sobre un elemento del menú */
 .menu-item:hover {
     -fx-background-color: #1ABC9C; /* Verde turquesa */
     -fx-text-fill: white;
