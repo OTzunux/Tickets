@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28/03/2025, 11:06:51 p. m.
+    Author     : Farasi
+*/
+
+#menuBar {
+    -fx-background-color: #1ABC9C; /* Azul oscuro elegante */
+}
+
+.menu {
+    -fx-text-fill: white; /* Color del texto */
+    -fx-font-size: 14px;
+}
+
+.menu:hover {
+    -fx-background-color: #34495E; /* Color más oscuro */
+}
+
+.menu-item {
+    -fx-text-fill: black;
+    -fx-font-size: 13px;
+}
+
+.menu-item:hover {
+    -fx-background-color: #1ABC9C; /* Verde turquesa */
+    -fx-text-fill: white;
+}
